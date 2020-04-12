@@ -2,14 +2,6 @@ const router = require("express").Router();
 const path = require("path");
 const Workout = require("../models/workoutSchema.js");
 
-router.get("/exercise", (req, res) => {
-    res.sendFile(path.join(__dirname, "/../public/exercise.html"));
-});
-
-router.get("/stats", (req, res) => {
-    res.sendFile(path.join(__dirname, "/../public/stats.html"));
-});
-
 router.get("/api/workouts", (req, res) => {
     Workout.find({})
         .sort({day: -1})
@@ -17,6 +9,14 @@ router.get("/api/workouts", (req, res) => {
             res.json(data[0]);
         })
         .catch(err => console.log(err));
+});
+
+router.get("/exercise", (req, res) => {
+    res.sendFile(path.join(__dirname, "/../public/exercise.html"));
+});
+
+router.get("/stats", (req, res) => {
+    res.sendFile(path.join(__dirname, "/../public/stats.html"));
 });
 
 router.post("/api/workouts", (req, res) => {
