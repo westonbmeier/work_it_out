@@ -1,6 +1,6 @@
+const Workout = require("../models/workoutSchema.js");
 const router = require("express").Router();
 const path = require("path");
-const Workout = require("../models/workoutSchema.js");
 
 router.get("/api/workouts", (req, res) => {
     Workout.find({})
