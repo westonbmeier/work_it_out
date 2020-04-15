@@ -12,7 +12,8 @@ A workout tracker using a Mongo database with a Mongoose schema that handles rou
 
 ## Deployment 
 
-
+[click here](https://wmworkout.herokuapp.com/)
+[click here](https://westonbmeier.github.io/work_it_out/)
 
 
 ## Running locally
