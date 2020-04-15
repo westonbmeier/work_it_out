@@ -30,6 +30,6 @@ A workout tracker using a Mongo database with a Mongoose schema that handles rou
 
 ## Screenshots
 
-![index](public\images\index.PNG)
-![workout](public\images\workout.PNG)
-![stats](public\images\stats.PNG)
+![index](public/images/index.PNG)
+![workout](public/images/workout.PNG)
+![stats](public/images/stats.PNG)
