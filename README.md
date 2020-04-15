@@ -10,6 +10,10 @@ A consumer will reach their fitness goals quicker when they track their workout 
 
 A workout tracker using a Mongo database with a Mongoose schema that handles routes with Express.
 
+## Deployment 
+
+
+
 
 ## Running locally
 
@@ -26,6 +30,6 @@ A workout tracker using a Mongo database with a Mongoose schema that handles rou
 
 ## Screenshots
 
-![index](public\images\Capture.PNG),
-![workout](public\images\Capture(1).PNG),
-![stats](public\images\Capture(2).PNG)
+![index](public\images\index.PNG)
+![workout](public\images\workout.PNG)
+![stats](public\images\stats.PNG)
