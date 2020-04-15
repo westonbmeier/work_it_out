@@ -21,7 +21,8 @@ async function initExercise() {
   let workout;
 
   if (location.search.split("=")[1] === undefined) {
-    workout = await API.createWorkout()
+    await API.createWorkout()
+    workout = await API.getLastWorkout();
     console.log(workout)
   }
   if (workout) {
